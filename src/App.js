@@ -1,8 +1,30 @@
+
 import logo from './logo.svg';
 import './App.css';
 
+ //function ou uma class
+
+ //objetos
+const a=[1,2,3];
+const b={a:1,b:"a",c:'M'}
+
+function detector(a){
+
+  if(a){
+    return true
+  }else{
+     return false
+    }
+
+}
+
+
+
+
 function App() {
   return (
+    //jsx
+    // variavel? true:false
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +41,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+    );
 }
 
 export default App;
